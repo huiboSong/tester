@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="1" name="qtest_01.testPython.Tesecase-20160801155610" skipped="0" tests="3" time="20.305">
+	<testcase classname="qtest_01.testPython.Tesecase" name="test_Q_1__u__u6bd4_u8f83_u72e0_u7684_u6d4b_u8bd5_u95f4_____xe6_xaf_x94_xe8_xbe_x83_xe7_x8b_xa0_xe7_x9a_x84_xe6_xb5_x8b_xe8_xaf_x95_xe9_x97_xb4_____xe6_x90_x9c_xe7_xb4_xa2_xe4_xb8_xad_xe6_x96_x87_xe5_x8d_x9a_xe5_xae_xa2_xe5_x90_x8d_xe5_xa4_xb1_xe8_xb4_xa5__" time="6.966"/>
+	<testcase classname="qtest_01.testPython.Tesecase" name="test_Q_2__u__u9f50_u56fd_u6770_____xe9_xbd_x90_xe5_x9b_xbd_xe6_x9d_xb0_____xe6_x90_x9c_xe7_xb4_xa2_xe4_xb8_xad_xe6_x96_x87_xe4_xba_xba_xe5_x90_x8d_xe5_xa4_xb1_xe8_xb4_xa5__" time="6.646"/>
+	<testcase classname="qtest_01.testPython.Tesecase" name="test_Q_3___qiguojie____qiguojie_____xe6_x90_x9c_xe7_xb4_xa2_xe6_x8b_xbc_xe9_x9f_xb3_xe5_x90_x8d_xe5_xa4_xb1_xe8_xb4_xa5__" time="6.693">
+		<failure message="搜索拼音名失败" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/ddt.py", line 129, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/qiguojie/mysvn/frame_code/tests/qtest/qtest_01/testPython.py", line 60, in test_Q
+    self.assertEqual(get_res_value, search_name, failed_msg)
+AssertionError: 搜索拼音名失败
+
+Stdout:
+Wait for xpath=[//*[@id='kw']] display 1 seconds.
+Wait for xpath=[//*[@id='su']] display 1 seconds.
+Wait for xpath=[//*[@id='1']/h3/a/em] display 1 seconds.
+]]>		</failure>
+	</testcase>
+	<system-out>
+<![CDATA[Wait for xpath=[//*[@id='kw']] display 1 seconds.
+Wait for xpath=[//*[@id='su']] display 1 seconds.
+Wait for xpath=[//*[@id='1']/h3/a/em] display 1 seconds.
+Wait for xpath=[//*[@id='kw']] display 1 seconds.
+Wait for xpath=[//*[@id='su']] display 1 seconds.
+Wait for xpath=[//*[@id='1']/h3/a/em] display 1 seconds.
+Wait for xpath=[//*[@id='kw']] display 1 seconds.
+Wait for xpath=[//*[@id='su']] display 1 seconds.
+Wait for xpath=[//*[@id='1']/h3/a/em] display 1 seconds.
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
