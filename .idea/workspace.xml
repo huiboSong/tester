@@ -1426,10 +1426,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/jsontest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="407">
+              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1534,11 +1534,11 @@
         <option value="$PROJECT_DIR$/test/1.pyi" />
         <option value="$PROJECT_DIR$/test/一个测试实例.py" />
         <option value="$PROJECT_DIR$/Testapi.py" />
-        <option value="$PROJECT_DIR$/test/jsontest.py" />
         <option value="$PROJECT_DIR$/setting/test_test/setting.py" />
         <option value="$PROJECT_DIR$/test/bingobox.py" />
         <option value="$PROJECT_DIR$/tests/members/api_1_0/test_all.py" />
         <option value="$PROJECT_DIR$/test/test1.py" />
+        <option value="$PROJECT_DIR$/test/jsontest.py" />
       </list>
     </option>
   </component>
@@ -1548,7 +1548,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="336" />
     <option name="y" value="303" />
     <option name="width" value="1560" />
@@ -2152,7 +2152,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="704" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="top" id="Concurrent Activities Diagram" order="0" sideWeight="0.497979" type="SLIDING" weight="0.32849365" />
@@ -2226,7 +2226,11 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2565,10 +2569,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/jsontest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="407">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
