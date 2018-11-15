@@ -204,7 +204,11 @@
         <entry file="file://$PROJECT_DIR$/test/jsontest.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="407">
+<<<<<<< HEAD
               <caret line="68" selection-start-line="68" selection-end-line="68" />
+=======
+              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+>>>>>>> a95ac1adf1cb9bac2121714429f026c147e3b5ef
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -325,7 +329,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="336" />
     <option name="y" value="303" />
     <option name="width" value="1560" />
@@ -929,7 +933,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="704" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="top" id="Concurrent Activities Diagram" order="0" sideWeight="0.497979" type="SLIDING" weight="0.32849365" />
@@ -1347,7 +1351,11 @@
     <entry file="file://$PROJECT_DIR$/test/jsontest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
+<<<<<<< HEAD
           <caret line="68" selection-start-line="68" selection-end-line="68" />
+=======
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+>>>>>>> a95ac1adf1cb9bac2121714429f026c147e3b5ef
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
