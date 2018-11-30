@@ -1,14 +1,8 @@
 __author__ = 'songhuibo'
 
-a = ('1233445566')
-# print(type(a))
-# print(a)
-c = list(a)
-# print(type(c))
-# print(c)
-b = c.copy()
-print(b)
-d = c.clear()
-print(d)
+A0 = dict(zip(('a', 'b', 'c', 'd', 'e'), (1, 2, 3, 4, 5)))
+print(A0)
+A1 = range(10)
+print(A1)
 
 # 备注测试提交111
