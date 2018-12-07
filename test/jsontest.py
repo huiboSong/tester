@@ -66,3 +66,9 @@ with open('abc.json', encoding='utf-8') as e:
 
 f = lambda x: x ** 2
 print(f(5))  # 25
+i = 0
+while i < 12:
+    i = + 1
+    if i % 2 > 0:
+        break
+    print(i)

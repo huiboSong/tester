@@ -1,12 +1,13 @@
 __author__ = 'songhuibo'
+import random
 import time
 
 from setting.test_test import setting
 
-A0 = dict(zip(('a', 'b', 'c', 'd', 'e'), (1, 2, 3, 4, 5)))
-print(A0)
-A1 = range(10)
-print(A1)
+# A0 = dict(zip(('a', 'b', 'c', 'd', 'e'), (1, 2, 3, 4, 5)))
+# print(A0)
+# A1 = range(10)
+# print(A1)
 
 # 备注测试提交111
 
@@ -80,7 +81,87 @@ for letter in 'Python':
 i = 1
 while i > 0:
     i = i - 1
-    if i == 0 or i == 5:
+    if i == 2:
         continue
     print(i)
 print("Good bye!")
+
+num = 12
+print(int(num))
+print(float(num))
+print(complex(num))
+print(type("".join(random.choice("0123456789") for i in range(8))))
+# print((random.choice(range(6))) + 1)
+print(len(list))
+
+tup = (1, 2, 3, 4, 5)
+print(type(tup))
+dict = {'age': 21, 'sex': '男', '籍贯': '河北邯郸'}
+print(dict.items())
+a = dict.copy()
+print(a)
+print(a.clear())
+print(dict.get('age'))
+print(dict.keys())
+dict.update({'age': 22})
+print(dict)
+print()
+
+
+def test(dict):
+    print(dict)
+    return
+
+
+test(dict='test')
+
+
+def test1(list):
+    list.append([1, 2, 3, 5, 'ceshi'])
+    return
+
+
+list = [10, 20, 30]
+test1(list)
+print(list)
+
+Money = 2000
+
+
+def AddMoney():
+    global Money
+    Money = Money + 1
+    return Money
+
+
+print(Money)
+AddMoney()
+print(Money)
+# import math
+# content = dir(time)
+# print(content)
+try:
+    fh = open("D/自动化测试文件testfil.txt", "a+", encoding='utf-8')
+    try:
+        fh.write("这是一个测试文件，用于测试异常!!")
+    finally:
+        print("关闭文件")
+        fh.close()
+except IOError:
+    print("Error: 没有找到文件或读取文件失败")
+
+
+def mye(level):
+    if level < 1:
+        # python用法
+        raise Exception("Invalid level!")
+        # 触发异常后，后面的代码就不会再执行
+
+
+try:
+    mye(0)
+# python3用法
+except Exception as err:
+    print(1, err)
+else:
+    print(2)

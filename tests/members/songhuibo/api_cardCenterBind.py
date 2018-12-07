@@ -1,13 +1,14 @@
 # coding=utf-8
 __author__ = "song"
 __project__ = "cofcoweb"
-import unittest
-import comall
-from setting.cofcoweb import setting
-from setting.cofcoweb import el
-from setting.cofcoweb.data.otherlogin import TestData as dt
 import time
+import unittest
+
+import comall
 from ddt import ddt, data, unpack
+from setting.cofcoweb import setting
+from setting.cofcoweb.data.otherlogin import TestData as dt
+
 
 @ddt
 class card(unittest.TestCase):
@@ -22,7 +23,7 @@ class card(unittest.TestCase):
                 {'timestamp': int(time.strftime('%S%H%M',time.localtime(time.time())))*7-1995}
                  )
         else:
-              print "Error, HTTP params[dict] key[timestamp] value is not updated."
+            print("Error, HTTP params[dict] key[timestamp] value is not updated.")
         # print setting.params
 
     O = dt.get("api_user")
@@ -46,7 +47,7 @@ class card(unittest.TestCase):
                     'Userid': str(return_data[0]['userid'])}
                      )
         else:
-            print "Error, HTTP womaiapilogin_header[dict] key[usersession] value is not updated."
+            print("Error, HTTP womaiapilogin_header[dict] key[usersession] value is not updated.")
         # print usersession,userid
     p = dt.get("api_cardCenterBind")
     @data(p[0])
